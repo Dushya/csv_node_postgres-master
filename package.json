@@ -1,0 +1,18 @@
+{
+  "name": "parse_csv",
+  "version": "1.0.0",
+  "description": "parsing csv files and storing into database",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Eduard Karesli",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.5.2",
+    "csv": "^0.3.7",
+    "fast-csv": "*",
+    "pg": "*",
+    "stream-length": "^1.0.2"
+  }
+}
